@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/icono.png" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Jose Manuel Fernández | Desarrollo web</title>
+		<!-- Open Graph / Facebook / LinkedIn -->
+		<meta property="og:type" content="website">
+		<meta property="og:title" content="Jose Manuel Fernández">
+		<meta property="og:url" content="https://jmfernandez.dev">
+		<meta property="og:image" content="/thumb.jpg">
+
+		<!-- Twitter Card -->
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:title" content="Jose Manuel Fernández">
+		<meta name="twitter:image" content="/thumb.jpg">
+		<meta name="twitter:url" content="https://jmfernandez.dev">
+
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+	</head>
+	<body>
+		<slot />
+
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+	</body>
+</html>
+
+<style>
+	html,
+	body {
+		margin: 0;
+		width: 100%;
+		height: 100%;
+		background: linear-gradient(135deg, #0D0D0D, #1C1C1C, #2A2A2A);
+		color: #EAEAEA;
+	}
+</style>
