@@ -52,7 +52,7 @@ const { title, description } = Astro.props;
 				<div class="row">
 					<div class="col-3">
 						<a href="/">
-							<img src="/icono.png" alt="icono jmfernxndez" width="75px">
+							<img src="/icono.png" alt="icono jmfernxndez" width="50px">
 						</a>
 					</div>
 					<div class="col-9 d-flex align-items-center justify-content-end">
@@ -74,16 +74,9 @@ const { title, description } = Astro.props;
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-4">
-						<span>Featured projects</span>
+						<img src="/icono.png" alt="icono jmfernxndez" width="50px">
 						<hr width="50%">
-						<ul>
-							<li><a href="http://vantag.es" target="_blank" rel="noopener">VANTAG.es</a></li>
-							<li><a href="http://segurosfeli.com" target="_blank" rel="noopener">SEGUROSFELI.com</a></li>
-							<li><a href="http://turnerja.com" target="_blank" rel="noopener">TURNERJA.com</a></li>
-							<li><a href="http://legalzone.es" target="_blank" rel="noopener">LEGALZONE.es</a></li>
-							<li><a href="http://jornadareducida.es" target="_blank" rel="noopener">JORNADAREDUCIDA.es</a></li>
-							<li><a href="http://gamearena.es" target="_blank" rel="noopener">GAMEARENA.es</a></li>
-						</ul>
+						<p>The code and projects I share are open source and may be used, modified, and distributed for personal or educational purposes. However, any use must comply with the terms outlined in this <a href="/license" target="_blank">License</a>, including proper attribution and the prohibition of sale or commercialization without explicit permission.</p>
 					</div>
 					<div class="col-lg-4">
 						<span>About me</span>
@@ -108,15 +101,6 @@ const { title, description } = Astro.props;
 					<hr class="mt-5">
 					<div class="col-12 text-lg-center mt-2">
 						<p>made with ♡ <span class="firma">jmfernxndez.</span></p>
-						<p style="font-size: 12px;">The code and projects I share are open source and may be used, modified, and distributed for personal or educational purposes. However, any use must comply with the terms outlined in this <a href="/license" target="_blank">License</a>, including proper attribution and the prohibition of sale or commercialization without explicit permission.</p>
-					</div>
-					<div class="col-12 text-lg-center mt-2 d-flex align-items-center justify-content-center">
-						<ul class="d-flex">
-							<li style="margin-right: 15px;"><a href="/lang/es">Español</a></li>
-							<li style="margin-right: 15px;"><a href="/lang/fr">Français</a></li>
-							<li style="margin-right: 15px;"><a href="/lang/de">Deutsch</a></li>
-							<li style="margin-right: 15px;"><a href="/lang/ar">عربي</a></li>
-						</ul>
 					</div>
 				</div>
 			</div>
@@ -164,6 +148,15 @@ const { title, description } = Astro.props;
 	footer a:hover {
 		text-decoration: underline;
 		color: #656dfe;
+	}
+
+	footer span {
+		font-size: 22px
+	}
+
+	footer li,
+	footer p {
+		font-size: 14px;
 	}
 
 	header ul,
