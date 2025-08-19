@@ -2,81 +2,119 @@
 import Layout from "../layouts/Layout.astro";
 ---
 
-<Layout title="Cookie Policy | jmfernxndez" description="">
-  <main>
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <h1>Cookie Policy</h1>
-          <p>Last updated: Vie 14 Mar 2025</p>
+<Layout
+  title="Cookie Policy | jmfernxndez"
+  description="Learn about the cookie policy for jmfernxndez's website. No cookies or user tracking are used, ensuring your privacy across all pages and projects."
+>
+  <div class="container">
+    <h1>Cookie Policy</h1>
 
-          <section>
-            <h2>1. What Are Cookies?</h2>
-            <p>
-              Cookies are small text files that are stored on your device (computer, tablet, or mobile) when you visit a website. They help the website recognize your device and remember information about your visit, such as your preferences or actions.
-            </p>
-          </section>
+    <section class="intro">
+      <p>
+        This Cookie Policy explains how <a
+          href="https://github.com/jmfernxndez"
+          target="_blank">jmfernxndez</a
+        >, freelance web developer, manages cookies and tracking technologies on
+        this website, including pages for projects like <a href="/web-tracker"
+          >Webtracker</a
+        > and <a href="/web-vitals-extension">Web Vitals</a>. My commitment is
+        to protect your privacy by avoiding cookies and tracking entirely. Last
+        updated: August 19, 2025.
+      </p>
+    </section>
 
-          <section>
-            <h2>2. How We Use Cookies</h2>
-            <p>
-              We use cookies for the following purposes:
-            </p>
-            <ul>
-              <li>
-                <strong>Essential Cookies:</strong> Necessary for the website to function properly (e.g., page navigation, access to secure areas).
-              </li>
-              <li>
-                <strong>Performance Cookies:</strong> Help us understand how visitors interact with our website by collecting anonymous information (e.g., pages visited, loading speed).
-              </li>
-              <li>
-                <strong>Functionality Cookies:</strong> Remember your preferences (e.g., language, region) to enhance your experience.
-              </li>
-            </ul>
-            <p>
-              Currently, <strong>jmfernandez.dev</strong> does not use third-party cookies for advertising or tracking purposes.
-            </p>
-          </section>
+    <section class="no-cookies">
+      <h2>No Cookies or Tracking</h2>
+      <p>
+        This website does not use cookies, web beacons, or any other tracking
+        technologies. I do not collect, store, or process any data related to
+        your browsing activity on this site. This ensures a privacy-first
+        experience while you explore my projects or services.
+      </p>
+    </section>
 
-          <section>
-            <h2>3. Managing Cookies</h2>
-            <p>
-              You can control or delete cookies through your browser settings. Most browsers allow you to block cookies or receive a notification when a cookie is set. However, disabling cookies may affect the functionality of our website.
-            </p>
-            <p>
-              To learn more about managing cookies, visit:
-              <a href="https://www.allaboutcookies.org/" target="_blank" rel="noopener noreferrer">AllAboutCookies.org</a>.
-            </p>
-          </section>
+    <section class="projects">
+      <h2>My Projects and Cookies</h2>
+      <p>
+        My Chrome extensions, including <a
+          href="https://github.com/jmfernxndez/webtracker"
+          target="_blank">Webtracker</a
+        > and <a
+          href="https://github.com/jmfernxndez/web-vitals-extension"
+          target="_blank">Web Vitals</a
+        >, also adhere to this no-tracking philosophy:
+      </p>
+      <ul>
+        <li>
+          <strong>Webtracker</strong>: Tracks website usage time locally on your
+          device without cookies or external data transmission.
+        </li>
+        <li>
+          <strong>Web Vitals</strong>: Monitors performance metrics (e.g., LCP,
+          CLS, INP) locally in your browser, with no cookies or tracking
+          involved.
+        </li>
+      </ul>
+      <p>
+        For more details on data handling, see my <a href="/privacy-policy"
+          >Privacy Policy</a
+        >.
+      </p>
+    </section>
 
-          <section>
-            <h2>4. Changes to This Policy</h2>
-            <p>
-              We may update this Cookie Policy from time to time. Any changes will be posted on this page with an updated "Last Updated" date. We encourage you to review this policy periodically.
-            </p>
-          </section>
+    <section class="contact">
+      <h2>Questions?</h2>
+      <p>
+        If you have questions about this Cookie Policy or my projects, please
+        contact me at <a href="mailto:jmfernandez@vantag.es"
+          >jmfernandez@vantag.es</a
+        > or visit my <a href="/contact">contact page</a>. You can also explore
+        my work on my <a href="https://github.com/jmfernxndez" target="_blank"
+          >GitHub profile</a
+        >.
+      </p>
+    </section>
+  </div>
 
-          <section>
-            <h2>5. Contact Us</h2>
-            <p>
-              If you have any questions about this Cookie Policy, please contact us at:
-              <strong>Email:</strong> jmfernandez@vantag.es
-            </p>
-          </section>
-        </div>
-      </div>
-    </div>
-  </main>
-</Layout>
-
-<style>
-  html,
-  body {
-    background: #f7f7f7;
-    color: #222222;
-  }
-
-  main {
-    margin-top: 150px;
-  }
-</style>
+  <style>
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 2rem;
+      font-family: Arial, sans-serif;
+    }
+    h1 {
+      font-size: 2.5rem;
+      color: #1a1a1a;
+      text-align: center;
+      margin-bottom: 1.5rem;
+    }
+    h2 {
+      font-size: 1.8rem;
+      color: #333;
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+    }
+    p {
+      line-height: 1.6;
+      color: #555;
+      margin-bottom: 1rem;
+    }
+    ul {
+      list-style-type: disc;
+      margin-left: 2rem;
+      margin-bottom: 1.5rem;
+    }
+    li {
+      margin-bottom: 0.5rem;
+      color: #555;
+    }
+    a {
+      color: #007bff;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style></Layout
+>

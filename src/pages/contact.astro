@@ -1,0 +1,164 @@
+---
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout
+  title="Contact jmfernxndez | Freelance Web Developer"
+  description="Get in touch with jmfernxndez for freelance web development or questions about Webtracker and Web Vitals Chrome extensions. Use the contact form or email me!"
+>
+  <div class="container">
+    <h1>Contact Me</h1>
+
+    <section class="intro">
+      <p>
+        I'm <a href="https://github.com/jmfernxndez" target="_blank"
+          >jmfernxndez</a
+        >, a freelance web developer passionate about building privacy-first
+        tools like <a href="/web-tracker">Webtracker</a> and maintaining the <a
+          href="/web-vitals-extension">Web Vitals</a
+        > Chrome extension. Whether you have questions about my projects, need custom
+        web development, or want to collaborate, I’d love to hear from you!
+      </p>
+    </section>
+
+    <section class="contact-form">
+      <h2>Send a Message</h2>
+      <p>
+        Fill out the form below to get in touch. I’ll respond as soon as
+        possible, typically within 24-48 hours.
+      </p>
+      <form action="https://formspree.io/f/mldjdena" method="POST">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Your name"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Your email"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Your message"
+            rows="5"
+            required></textarea>
+        </div>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+    <section class="alternative-contact">
+      <h2>Other Ways to Reach Me</h2>
+      <ul>
+        <li>
+          <strong
+            ><a
+              target="_blank"
+              href="https://www.linkedin.com/in/jmfernandezalvarez">LinkedIn</a
+            ></strong
+          >
+        </li>
+        <li>
+          <strong>Email</strong>: <a href="mailto:jmfernandez@vantag.es"
+            >jmfernandez@vantag.es</a
+          >
+        </li>
+        <li>
+          <strong>GitHub</strong>: Check out my projects or contribute at <a
+            href="https://github.com/jmfernxndez"
+            target="_blank">github.com/jmfernxndez</a
+          >
+        </li>
+      </ul>
+    </section>
+  </div>
+
+  <style>
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 2rem;
+      font-family: Arial, sans-serif;
+    }
+    h1 {
+      font-size: 2.5rem;
+      color: #1a1a1a;
+      text-align: center;
+      margin-bottom: 1.5rem;
+    }
+    h2 {
+      font-size: 1.8rem;
+      color: #333;
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+    }
+    p {
+      line-height: 1.6;
+      color: #555;
+      margin-bottom: 1rem;
+    }
+    ul {
+      list-style-type: disc;
+      margin-left: 2rem;
+      margin-bottom: 1.5rem;
+    }
+    li {
+      margin-bottom: 0.5rem;
+      color: #555;
+    }
+    a {
+      color: #007bff;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .form-group {
+      margin-bottom: 1.5rem;
+    }
+    label {
+      display: block;
+      font-weight: bold;
+      color: #333;
+      margin-bottom: 0.5rem;
+    }
+    input,
+    textarea {
+      width: 100%;
+      padding: 0.8rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 1rem;
+      color: #333;
+    }
+    textarea {
+      resize: vertical;
+    }
+    button {
+      background-color: #007bff;
+      color: #fff;
+      padding: 0.8rem 1.5rem;
+      border: none;
+      border-radius: 4px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+  </style></Layout
+>
