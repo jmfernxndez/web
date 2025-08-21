@@ -3,13 +3,17 @@
     {
       "source": "/:path*",
       "destination": "/",
-      "permanent": true,
-      "has": [
-        {
-          "type": "path",
-          "value": "^(?!/|/(index\\.html|index\\.php)?$).*"
-        }
-      ]
+      "permanent": true
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/index.html",
+      "destination": "/"
+    },
+    {
+      "source": "/index.php",
+      "destination": "/"
     }
   ]
 }
