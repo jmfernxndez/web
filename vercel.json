@@ -1,9 +1,10 @@
 {
   "redirects": [
     {
-      "source": "http://yourdomain.com/:path*",
-      "destination": "https://yourdomain.com/",
-      "permanent": true
+      "source": "/:path*",
+      "destination": "/",
+      "permanent": false,
+      "statusCode": 404
     }
   ]
 }
