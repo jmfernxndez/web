@@ -3,7 +3,6 @@
     {
       "source": "/:path*",
       "destination": "/",
-      "permanent": false,
       "statusCode": 404
     }
   ]
