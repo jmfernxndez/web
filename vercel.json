@@ -1,7 +1,7 @@
 {
   "redirects": [
     {
-      "source": "/((?!assets).+)",
+      "source": "/((?!assets|robots\\.txt).+)",
       "destination": "/",
       "permanent": false
     }
