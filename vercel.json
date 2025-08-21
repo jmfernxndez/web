@@ -3,23 +3,8 @@
   "trailingSlash": false,
   "rewrites": [
     {
-      "source": "/index.html",
-      "destination": "/"
-    },
-    {
-      "source": "/index.php",
-      "destination": "/"
-    },
-    {
-      "source": "/:path*.(css|js|png|jpg|jpeg|gif|svg|ico|woff|woff2|ttf|eot|pdf)",
-      "destination": "/:path*.:ext"
-    }
-  ],
-  "redirects": [
-    {
-      "source": "/:path+",
-      "destination": "/",
-      "permanent": true
+      "source": "/:path*",
+      "destination": "/api/redirect"
     }
   ]
 }
