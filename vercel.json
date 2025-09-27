@@ -1,9 +1,7 @@
 {
-  "redirects": [
-    {
-      "source": "/((?!assets|robots\\.txt).+)",
-      "destination": "/",
-      "permanent": false
-    }
-  ]
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "error": {
+    "404": "/404.html"
+  }
 }
