@@ -1,35 +1,19 @@
-# JM Fernández - Desarrollador Full Stack
+# llms.txt for jmfernandez.dev
+# Indica versiones multilingües y contenido disponible
 
-Desarrollador Full Stack especializado en desarrollo web y fundador de VANTAG.es, una agencia de desarrollo web.
+# Página principal por defecto
+Default: https://jmfernandez.dev/es/
 
-## Sobre mí
+# Versiones por idioma
+Languages:
+  es: https://jmfernandez.dev/es/
+  ar: https://jmfernandez.dev/ar/
+  ja: https://jmfernandez.dev/ja/
+  zh: https://jmfernandez.dev/zh/
 
-Trabajo como desarrollador web y administrador de sistemas en Esparta Digital (Valencia) en modalidad remota. Desarrollo proyectos personales enfocados en crear soluciones web innovadoras y gestiono mi propia agencia de desarrollo y proyectos open source VANTAG.es.
-
-## Proyectos principales
-
-- **VANTAG.es**: Agencia de desarrollo web propia (https://vantag.es)
-- **LegalZone**: Proyecto gambling a nivel SEO
-- **Esparta Digital**: Desarrollador full stack y administrador de sistemas
-
-## Tecnologías
-
-JavaScript, HTML, CSS, desarrollo full stack, administración de sistemas, WordPress, Astro, Node.js, bases de datos.
-
-## Experiencia
-
-- Desarrollador Full Stack en Esparta Digital (Valencia - Remoto)
-- Fundador y desarrollador principal de VANTAG.es
-- Especialista en administración de sistemas y desarrollo web
-
-## Contacto
-
-- Web personal: https://jmfernandez.dev
-- Proyecto principal: https://vantag.es
-- Email: jmfernandez@vantag.es
-- LinkedIn: https://linkedin.com/in/jmfernandezalvarez
-- GitHub: https://github.com/jmfernxndez
-
-## Intereses adicionales
-
-Gaming (Valorant, Counter-Strike), desarrollo de proyectos personales, administración de sistemas.
+# Información adicional
+Contact: mailto:jmfernandez@vantag.es
+Creator: Jose Manuel Fernández
+Last-Updated: 2025-08-21
+License: CC-BY-NC-SA-4.0
+Topics: Desarrollo Web, Full Stack, E-Commerce, CMS, Open Source
