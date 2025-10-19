@@ -7,23 +7,23 @@
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
  
     <!-- SEO -->
-    <title>jmfernxndez | Full stack web development</title>
-    <meta name="description" content="Web developer. I create clear, functional, user-focused websites with clean code and modern technologies. Contact me!" />
+    <title>jmfernxndez | Frontend Developer specializing in modern web interfaces</title>
+    <meta name="description" content="Frontend developer specializing in Astro, vanilla JavaScript, and modern CSS. I build fast, accessible, and user-focused web interfaces. Check out my work on CodePen and VANTAG.es" />
     <link rel="canonical" href="https://jmfernandez.dev" />
 
-    <link rel="icon" href="assets/img/icono.png" sizes="32x32" />
-    <link rel="icon" href="assets/img/icono.png" sizes="192x192" />
-    <link rel="apple-touch-icon" href="assets/img/icono.png" />
-    <meta name="msapplication-TileImage" content="assets/img/icono.png" />
+    <link rel="icon" href="/assets/img/icono.png" sizes="32x32" />
+    <link rel="icon" href="/assets/img/icono.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="/assets/img/icono.png" />
+    <meta name="msapplication-TileImage" content="/assets/img/icono.png" />
 
     <!-- SEO METAOG -->
-    <meta property="og:title" content="jmfernxndez | Full stack web development" />
-    <meta property="og:description" content="Web developer. I create clear, functional, user-focused websites with clean code and modern technologies. Contact me!" />
-    <meta property="og:image" content="assets/img/thumb.jpg" />
+    <meta property="og:title" content="jmfernxndez | Frontend Developer" />
+    <meta property="og:description" content="Frontend developer specializing in Astro, vanilla JavaScript, and modern CSS. I build fast, accessible, and user-focused web interfaces." />
+    <meta property="og:image" content="https://jmfernandez.dev/assets/img/thumb.jpg" />
     <meta property="og:url" content="https://jmfernandez.dev" />
-    <meta property="og:type" content="website" />
-    <meta property="og:site_name" content="jmfernxndez | Full stack web development" />
-    <meta property="og:locale" content="es_ES" />
+    <meta property="og:type" content="profile" />
+    <meta property="og:site_name" content="jmfernxndez | Frontend Developer" />
+    <meta property="og:locale" content="en_US" />
     <meta property="og:image:width" content="700" />
     <meta property="og:image:height" content="500" />
     <meta property="og:image:type" content="image/jpeg" />
@@ -36,10 +36,54 @@
 
     <!-- SEO TWITTER -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="jmfernxndez | Full stack web development" />
-    <meta name="twitter:description" content="Web developer. I create clear, functional, user-focused websites with clean code and modern technologies. Contact me!" />
-    <meta name="twitter:image" content="assets/img/thumb.jpg" />
-    <meta name="twitter:url" content="https://jmfernandez.dev" />
+    <meta name="twitter:title" content="jmfernxndez | Frontend Developer" />
+    <meta name="twitter:description" content="Frontend developer specializing in Astro, vanilla JavaScript, and modern CSS. I build fast, accessible, and user-focused web interfaces." />
+    <meta name="twitter:image" content="https://jmfernandez.dev/assets/img/thumb.jpg" />
+    <meta name="twitter:site" content="@jmfernxndez" />
+    <meta name="twitter:creator" content="@jmfernxndez" />
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "José Manuel Fernández",
+      "url": "https://jmfernandez.dev",
+      "image": "https://jmfernandez.dev/assets/img/jose.jpeg",
+      "jobTitle": "Frontend Developer",
+      "description": "Frontend developer specializing in Astro, vanilla JavaScript, and modern CSS. Building fast, accessible, and user-focused web interfaces.",
+      "sameAs": [
+        "https://linkedin.com/in/jmfernandezalvarez",
+        "https://github.com/jmfernxndez",
+        "https://codepen.io/jmfernxndez"
+      ],
+      "knowsAbout": ["Frontend Development", "Astro", "JavaScript", "CSS", "Web Performance", "Accessibility"],
+      "email": "me@jmfernandez.dev"
+    }
+    </script>
+
+    <!-- Language Detection Script -->
+    <script>
+      (function() {
+        // Solo redirigir si no hay preferencia guardada
+        if (!localStorage.getItem('langPreference')) {
+          const userLang = navigator.language || navigator.userLanguage;
+          const langCode = userLang.split('-')[0].toLowerCase();
+          
+          const langMap = {
+            'es': '/es/',
+            'ar': '/ar/',
+            'ja': '/ja/',
+            'zh': '/zh/',
+            'cn': '/zh/' // Por si detecta 'cn' en vez de 'zh'
+          };
+          
+          if (langMap[langCode] && window.location.pathname === '/') {
+            window.location.href = langMap[langCode];
+          }
+        }
+      })();
+    </script>
 
     <!-- ANALYTICS COOKIE LESS -->
     <script src="https://analytics.ahrefs.com/analytics.js" data-key="sg5hO02ELv/50pDYfrzoQA" async ></script>
@@ -50,25 +94,34 @@
 	<div class="bloque">
 		<div class="informacion">
 			<h1>jmfernxndez</h1>
-			<h2>Full-Stack Web Developer | E-Commerce & CMS Specialist</h2>
-			<p>I'm Jose Manuel, Full Stack developer with more experience in frontend, although my work covers multiple areas. Currently, at Esparta Digital, I not only develop, but also manage VPS servers, manage clients and coordinate business projects, providing hosting and domain support.</p>
-			<p>I also manage VANTAG.es, a personal project where I host open-source initiatives and develop web applications. In addition, I share technical guides to help the community and foster the growth of the open-source ecosystem.</p>
+			<h2>Frontend Developer | Astro, JavaScript & Modern CSS</h2>
+			
+			<p>I'm José Manuel, a frontend developer focused on building fast, accessible, and clean web interfaces. I work primarily with Astro, vanilla JavaScript, and modern CSS, adapting to different tech stacks as needed.</p>
+			
+			<p>Currently working at a digital agency where I lead frontend development for e-commerce and CMS projects. I also maintain <a href="https://vantag.es" target="_blank" rel="noopener noreferrer">VANTAG.es</a>, an open-source platform where I experiment with new web technologies and share technical knowledge with the developer community.</p>
 
 			<div class="links">
-				<p><b>Feel free to learn more about me:</b></p>
+				<p><b>Find me online:</b></p>
 				<ul>
-					<li><a href="https://linkedin.com/in/jmfernandezalvarez" target="_blank" rel="noopener noreferrer"><img src="/assets/img/linkedin-svgrepo-com.svg" alt="linkedin" title="LinkedIn" /></a></li>
-					<li><a href="http://github.com/jmfernxndez" target="_blank" rel="noopener noreferrer"><img src="/assets/img/github-142-svgrepo-com.svg" alt="github" title="github" /></a></li>
-					<li><a href="https://codepen.io/jmfernxndez" target="_blank" rel="noopener noreferrer"><img src="/assets/img/codepen-svgrepo-com.svg" alt="codepen" title="codepen" /></a></li>
-					<li><a href="https://vantag.es" target="_blank"><img src="/assets/img/vg.png" alt="Vantag" title="Vantag" /></a></li>
-					<li><a href="mailto:jmfernandez@vantag.es"><img src="/assets/img/mail-open-alt-1-svgrepo-com.svg" alt="Email contact" title="Email contact" /></a></li>
+					<li><a href="https://linkedin.com/in/jmfernandezalvarez" target="_blank" rel="noopener noreferrer"><img src="/assets/img/linkedin-svgrepo-com.svg" alt="LinkedIn profile" title="LinkedIn" /></a></li>
+					<li><a href="https://github.com/jmfernxndez" target="_blank" rel="noopener noreferrer"><img src="/assets/img/github-142-svgrepo-com.svg" alt="GitHub profile" title="GitHub" /></a></li>
+					<li><a href="https://codepen.io/jmfernxndez" target="_blank" rel="noopener noreferrer"><img src="/assets/img/codepen-svgrepo-com.svg" alt="CodePen profile" title="CodePen" /></a></li>
+					<li><a href="mailto:me@jmfernandez.dev"><img src="/assets/img/mail-open-alt-1-svgrepo-com.svg" alt="Email contact" title="Email" /></a></li>
 				</ul>
 			</div>
 		</div>
 
 		<div class="foto">
-			<img src="/assets/img/jose.jpeg" alt="Thats me" title="Thats me" />
+			<img src="/assets/img/jose.jpeg" alt="José Manuel Fernández" title="José Manuel Fernández" />
 		</div>
 	</div>
+
+	<!-- Language Preference Setter -->
+	<script>
+		// Guardar que el usuario está en esta versión del idioma
+		if (!localStorage.getItem('langPreference')) {
+			localStorage.setItem('langPreference', 'en');
+		}
+	</script>
 </body>
 </html>

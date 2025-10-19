@@ -12,7 +12,7 @@ Languages:
   zh: https://jmfernandez.dev/zh/
 
 # Información adicional
-Contact: mailto:jmfernandez@vantag.es
+Contact: mailto:me@jmfernandez.dev
 Creator: Jose Manuel Fernández
 Last-Updated: 2025-08-21
 License: CC-BY-NC-SA-4.0
