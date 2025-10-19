@@ -28,7 +28,11 @@
     <meta property="og:image:height" content="500" />
     <meta property="og:image:type" content="image/jpeg" />
 
+    <link rel="alternate" href="https://jmfernandez.dev/" hreflang="en" />
     <link rel="alternate" href="https://jmfernandez.dev/es/" hreflang="es" />
+    <link rel="alternate" href="https://jmfernandez.dev/de/" hreflang="de" />
+    <link rel="alternate" href="https://jmfernandez.dev/fr/" hreflang="fr" />
+    <link rel="alternate" href="https://jmfernandez.dev/pt/" hreflang="pt" />
     <link rel="alternate" href="https://jmfernandez.dev/ar/" hreflang="ar" />
     <link rel="alternate" href="https://jmfernandez.dev/ja/" hreflang="ja" />
     <link rel="alternate" href="https://jmfernandez.dev/zh/" hreflang="zh" />
@@ -65,17 +69,19 @@
     <!-- Language Detection Script -->
     <script>
       (function() {
-        // Solo redirigir si no hay preferencia guardada
         if (!localStorage.getItem('langPreference')) {
           const userLang = navigator.language || navigator.userLanguage;
           const langCode = userLang.split('-')[0].toLowerCase();
           
           const langMap = {
             'es': '/es/',
+            'de': '/de/',
+            'fr': '/fr/',
+            'pt': '/pt/',
             'ar': '/ar/',
             'ja': '/ja/',
             'zh': '/zh/',
-            'cn': '/zh/' // Por si detecta 'cn' en vez de 'zh'
+            'cn': '/zh/'
           };
           
           if (langMap[langCode] && window.location.pathname === '/') {
